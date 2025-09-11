@@ -16,7 +16,7 @@ menu = do
          putStrLn("Introduce el numero")
          n1 <- getLine
          let x = read n1 :: Integer
-         putStrLn("El resultado es "++ show(factorial x)
+         putStrLn("El resultado es "++ show(factorial x))
    case opcion of 
    "2" -> do
          putStrLn("ADIOS ")
@@ -32,3 +32,4 @@ main = menu
 --cd 2_haskell
 --ghci
 -- :load funciones.hs
+
