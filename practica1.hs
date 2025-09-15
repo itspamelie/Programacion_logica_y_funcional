@@ -31,7 +31,7 @@ menu = do
     putStrLn("=== MENU ==")
     putStrLn("CALCULA LO QUE GUSTES:)")
     putStrLn("1 VALOR ABSOLUTO DE X") --listo
-    putStrLn("2 MENOR ENTERO NO MENOR QUE X") --listo
+    putStrLn("2 REDONDEO DE X") --listo
     putStrLn("3 VALOR SIGUIENTE DE X") --listo
     putStrLn("4 MENOR DE DOS NUMEROS") --listo
     putStrLn("5 MAYOR DE DOS NUMEROS") --listo
