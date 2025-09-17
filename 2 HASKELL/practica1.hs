@@ -1,4 +1,5 @@
 --FUNCIONES
+absoluto:: Integer -> Integer
 absoluto x = abs x
 redondeo:: Double -> Integer
 redondeo x = ceiling x
@@ -141,7 +142,8 @@ menu = do
           n1 <- getLine
           let x = read n1 :: Integer
           putStrLn(if positivoNegativo x == 1  then "1, por tanto Positivo"
-          else "-1, por tanto Negativo")  
+          else "-1, por tanto Negativo") 
+          menu 
       "14" -> do
           putStrLn("Introduce el valor de x")
           n1 <- getLine
@@ -150,6 +152,7 @@ menu = do
           n2 <- getLine
           let y = read n2 :: Integer
           putStrLn("El segundo elemento de x y y es " ++show (segundoElemento x y))
+          menu
           
 
 main :: IO ()
