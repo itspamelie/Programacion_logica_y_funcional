@@ -9,13 +9,16 @@ progenitor(tomas,jose).
 progenitor(tomas,isabel).
 progenitor(jose,ana).
 progenitor(jose,patricia).
-progenitor(patricia,jaime)
+progenitor(patricia,jaime).
 
 %CON CODIGO PONER QUE ISABEL ES TIA DE ANA
 % progenitor(X,ana), progenitor(Y,X),progenitor(Y,Z).
 
 % ES ANA TIA DE JAIME?
 %Pensando que solo tenemos los datos de ana y jaime
-
+%progenitor(papa,ana),progenitor(papa,hermana),progenitor(hermana,jaime).
+%papa=jose y hermana=patricia
 
 %ES ANA TIA DE ISABEL?
+%progenitor(papa,ana),progenitor(papa,hermana),progenitor(hermana,isabel).
+%FALSOOOOOOOOOOOOOO
