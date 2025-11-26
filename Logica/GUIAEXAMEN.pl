@@ -36,7 +36,7 @@ convertiragigabit(X,Z):-velocidad(X,Y), Z is Y / 1000.
 %regla que compara la velocidad entre el switch y el router
 comparar_velocidad(X,Y,Z):-velocidad(X,A),velocidad(Y,B),
 (
-    A > B -> Z ='La red 1 tiene una mayor velocidad.';
+    A > B -> Z ='X tiene una mayor velocidad.';
     A =:= B -> Z ='Ambos tienen la misma velocidad';
-    Z='La red 2 tiene mayor velocidad.'
+    Z='Y tiene mayor velocidad.'
 ).
